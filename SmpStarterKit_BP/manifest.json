@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "SMP Starter Kit",
+    "description": "Gives each new player a starter SMP kit.",
+    "uuid": "8d6e3f6e-1b62-4b2f-9c86-6d3e0c1b7f42",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "3c1d3d44-2dfd-4d75-8f4f-4ce8c28d6b90",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.13.0"
+    }
+  ]
+}
